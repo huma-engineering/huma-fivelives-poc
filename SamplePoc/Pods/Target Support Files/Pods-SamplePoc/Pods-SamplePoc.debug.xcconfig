@@ -1,0 +1,13 @@
+CLANG_CXX_LANGUAGE_STANDARD = c++11
+CLANG_CXX_LIBRARY = libc++
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../SDKOutput/Frameworks" "${PODS_XCFRAMEWORKS_BUILD_DIR}/RNFiveLivesSDK"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -framework "AudioToolbox" -framework "BVLinearGradient" -framework "CoreModules" -framework "DoubleConversion" -framework "Foundation" -framework "JavaScriptCore" -framework "Lottie" -framework "MobileCoreServices" -framework "Pods_RNFiveLivesSDK" -framework "QuartzCore" -framework "RCTAnimation" -framework "RCTBlob" -framework "RCTDeprecation" -framework "RCTFabric" -framework "RCTImage" -framework "RCTLinking" -framework "RCTNetwork" -framework "RCTSettings" -framework "RCTText" -framework "RCTTypeSafety" -framework "RCTVibration" -framework "RNFiveLivesSDK" -framework "RNGestureHandler" -framework "RNReactNativeHapticFeedback" -framework "RNSVG" -framework "RNSound" -framework "React" -framework "ReactCommon" -framework "React_Codegen" -framework "React_Fabric" -framework "React_FabricImage" -framework "React_ImageManager" -framework "React_Mapbuffer" -framework "React_NativeModulesApple" -framework "React_RCTAppDelegate" -framework "React_RuntimeApple" -framework "React_RuntimeCore" -framework "React_debug" -framework "React_featureflags" -framework "React_graphics" -framework "React_jsc" -framework "React_jserrorhandler" -framework "React_nativeconfig" -framework "React_rendererdebug" -framework "React_runtimescheduler" -framework "React_utils" -framework "SocketRocket" -framework "SystemConfiguration" -framework "UIKit" -framework "UserNotifications" -framework "cxxreact" -framework "fmt" -framework "folly" -framework "glog" -framework "jsi" -framework "jsinspector_modern" -framework "jsireact" -framework "logger" -framework "lottie_react_native" -framework "react_native_safe_area_context" -framework "reactperflogger" -framework "yoga"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
